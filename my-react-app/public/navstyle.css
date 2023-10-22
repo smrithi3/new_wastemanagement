@@ -1,0 +1,70 @@
+
+nav {
+    background-color: #f2ecec;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Style the search icon */
+.search-icon {
+   
+    float: right;
+}
+
+.fa-search {
+    font-family: FontAwesome;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    
+}
+
+/* Define styles for other links */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.topnav-left{
+    float: left;
+}
+
+.topnav-right{
+    float: right;
+}
+.navbar.container-panel {
+    width:100%;
+    margin-left: 0;
+    height: 15mm;
+  }
+
+  .navbar.login-panel {
+    width:100%;
+    margin-left: 0;
+    height: 15mm;
+  }
+
+.centerd{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    transform: translate(-50% ,-50%);
+    font-size: 6vw;
+    font-family: "copperplate",fantasy;
+    color: aliceblue;
+   text-shadow: -1px 0 black, 0 1px black ,1px 0 black, 0 -1px black; 
+}
